@@ -1,0 +1,17 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           com.tuplejump.playYeoman.Yeoman.redirectRoot(base="/ui/")
+#controllers.Application.index
+POST    /register                   controllers.Registration.index
+POST    /sms/push                   controllers.SMS.smsFromPhone
+POST    /sms/send                   controllers.SMS.send
+GET     /sms/feed                   controllers.SMS.smsFeed
+
+GET     /ui                         com.tuplejump.playYeoman.Yeoman.index
+->      /ui/                        yeoman.Routes
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)

@@ -1,0 +1,33 @@
+<h1>SMS Relay</h1>
+<div class="row">
+  <div class="well col-md-5">
+    <ul>
+      <li ng-repeat="conv in conversations | orderBy: 'lastMessage':true ">
+        {{conv.name}} - {{conv.number}}
+        <ul>
+          <li ng-repeat="m in conv.messages | orderBy: '-date' | limitTo:5 | orderBy: 'date' ">
+            {{m.text}} <br/>
+            <small>{{m.date | date: 'd MMM, H:mm' }}</small>
+          </li>
+        </ul>
+        <button ng-click="reply(conv.number)">Reply</button>
+      </li>
+    </ul>
+  </div>
+  <div class="col-md-1">
+  </div>
+  <div class="col-md-6">
+    <form class="form-horizontal" role="form">
+      <div class="form-group">
+        <label class="control-label col-sm-3">Phone Number</label>
+        <div class="col-sm-5">
+          <input ng-model="sms.phoneNumber" type="tel" class="form-control" id="phoneNumber" placeholder="+33 1 23 45 67" />
+        </div>
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" ng-model="sms.text" rows="3"></textarea>
+      </div>
+      <button type="submit" ng-click="send()" class="btn btn-default">Send</button>
+    </form>
+  </div>
+</div>

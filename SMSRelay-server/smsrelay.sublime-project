@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/vince/dev/SMSRelay/SMSRelay-server",
+      "folder_exclude_patterns": ["target", ".tmp", "node_modules", "dist", "bower_components"]
+		}
+	]
+}
