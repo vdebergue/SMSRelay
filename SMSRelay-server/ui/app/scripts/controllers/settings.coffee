@@ -7,3 +7,6 @@ angular.module('uiApp')
       webkitNotifications.requestPermission()
     )
 
+    $scope.clear = () ->
+      localStorage.clear()
+

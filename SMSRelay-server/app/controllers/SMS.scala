@@ -44,10 +44,9 @@ object SMS extends Controller {
     (__ \ "phoneNumber").read[String]
   ) tupled
 
-  def send = Action(parse.json) { request =>
+  def send(registrationId: String) = Action(parse.json) { request =>
     request.body.validate[(String, String)](rds).map {
       case (smsText, phoneNumber) => {
-        val registrationId = "APA91bE1EtwhXWBrGS9szkCPj-dEbsR5q8bawrnZ_8pujARteWEZpqAnd93oVYpd-RDj8jdMOpaRDA4heE_CqUmX9bTVhL2btQonXiGIeCcwARUu-cdGMu40JKGiDVYi-EwIu_67EW97dN7QOOM92TP1ePI1Bk_rQA"
         val json = Json.obj(
           "registration_ids" -> Json.arr(registrationId),
           "time_to_live" -> 60*10, // 10mns
@@ -75,7 +74,13 @@ object SMS extends Controller {
     }.recoverTotal( _ => Json.obj())
   }
 
-  def smsFeed = Action {
-    Ok.chunked(out &> filterValues &> EventSource()).as("text/event-stream")
+  def filterSms(id : String) : Enumeratee[JsValue, JsValue] = Enumeratee.filter[JsValue]{ json =>
+    // check if json.registrationId corresponds to the id
+    val registrationId = (json \ "registrationId").as[String]
+    registrationId == id
+  }
+
+  def smsFeed(regId: String) = Action {
+    Ok.chunked(out &> filterSms(regId) &> filterValues &> EventSource()).as("text/event-stream")
   }
 }

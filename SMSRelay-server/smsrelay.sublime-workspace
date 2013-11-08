@@ -4,8 +4,100 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"regId"
+			],
+			[
+				"Reg",
+				"Registration"
+			],
+			[
+				"pa",
+				"parallelism-max"
+			],
+			[
+				"for",
+				"fork-join-executor"
+			],
+			[
+				"cons",
+				"conversations"
+			],
+			[
+				"app",
+				"appConfig"
+			],
+			[
+				"get",
+				"getItem"
+			],
+			[
+				"reg",
+				"regOption"
+			],
+			[
+				"te",
+				"templateUrl"
+			],
+			[
+				"regis",
+				"registrationId"
+			],
+			[
+				"fil",
+				"filter"
+			],
+			[
+				"sen",
+				"sent"
+			],
+			[
+				"se",
+				"sendBtn"
+			],
+			[
+				"conv",
+				"conversationsKey"
+			],
+			[
+				"req",
+				"requestPermission"
+			],
+			[
+				"not",
+				"notifyNewMessage"
+			],
+			[
+				"read",
+				"readsFilter"
+			],
+			[
+				"filt",
+				"filterValues"
+			],
+			[
+				"pus",
+				"pushMessage"
+			],
+			[
+				"sms",
+				"smsFeed"
+			],
+			[
+				"val",
+				"validate"
+			],
+			[
 				"Js",
-				"Json"
+				"JsValue"
+			],
+			[
+				"mess",
+				"message"
+			],
+			[
+				"con",
+				"conversations"
 			],
 			[
 				"g",
@@ -18,10 +110,6 @@
 			[
 				"ap",
 				"apiKey"
-			],
-			[
-				"re",
-				"registrationId"
 			],
 			[
 				"ne",
@@ -100,16 +188,8 @@
 				"margin-top"
 			],
 			[
-				"for",
-				"forin	Array Comprehension"
-			],
-			[
 				"too",
 				"todoText"
-			],
-			[
-				"get",
-				"getOrElse"
 			],
 			[
 				"rende",
@@ -132,10 +212,6 @@
 				"enumerator"
 			],
 			[
-				"con",
-				"concurrent"
-			],
-			[
 				"I",
 				"IsAuthenticated"
 			],
@@ -150,10 +226,6 @@
 			[
 				"to",
 				"toList"
-			],
-			[
-				"pa",
-				"path"
 			],
 			[
 				"cle",
@@ -236,20 +308,12 @@
 				"repeatM	(<byname>[Future[E]])"
 			],
 			[
-				"filt",
-				"filterNot	(Function1[Download, Boolean])"
-			],
-			[
 				"fo",
 				"foreach	(Function1[Download, B])"
 			],
 			[
 				"a",
 				"api	"
-			],
-			[
-				"req",
-				"require	(Boolean)"
 			],
 			[
 				"asse",
@@ -450,96 +514,32 @@
 			[
 				"ind",
 				"indexOf	(B)"
-			],
-			[
-				"wor",
-				"word	"
-			],
-			[
-				"word",
-				"wordOccurrences	(String)"
-			],
-			[
-				"su",
-				"subset	"
-			],
-			[
-				"dic",
-				"dictionaryByOccurrences	"
-			],
-			[
-				"occur",
-				"occurences	"
-			],
-			[
-				"colo",
-				"background-color"
-			],
-			[
-				"bac",
-				"background-color"
-			],
-			[
-				"side",
-				"sidebar"
-			],
-			[
-				"as",
-				"async	jasync"
-			],
-			[
-				"etude",
-				"etudes"
-			],
-			[
-				"et",
-				"etudes"
-			],
-			[
-				"inter",
-				"intervenant"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "conf/routes",
-			"settings":
-			{
-				"buffer_size": 686,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/controllers/SMS.scala",
 			"settings":
 			{
-				"buffer_size": 1767,
+				"buffer_size": 2557,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/utils/Conf.scala",
+			"file": "app/controllers/Authentification.scala",
 			"settings":
 			{
-				"buffer_size": 557,
+				"buffer_size": 1129,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/Registration.scala",
+			"file": "app/models/Db.scala",
 			"settings":
 			{
-				"buffer_size": 641,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 207,
+				"buffer_size": 1073,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,15 +547,39 @@
 			"file": "conf/application.conf",
 			"settings":
 			{
-				"buffer_size": 1681,
+				"buffer_size": 1893,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "project/plugins.sbt",
+			"file": "ui/app/index.html",
 			"settings":
 			{
-				"buffer_size": 352,
+				"buffer_size": 2780,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ui/app/scripts/app.coffee",
+			"settings":
+			{
+				"buffer_size": 995,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "conf/routes",
+			"settings":
+			{
+				"buffer_size": 874,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/Application.scala",
+			"settings":
+			{
+				"buffer_size": 1893,
 				"line_ending": "Unix"
 			}
 		},
@@ -563,7 +587,7 @@
 			"file": "build.sbt",
 			"settings":
 			{
-				"buffer_size": 204,
+				"buffer_size": 291,
 				"line_ending": "Unix"
 			}
 		}
@@ -571,9 +595,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 243.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -727,10 +755,6 @@
 				"Git: Commit"
 			],
 			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
 				"git pu",
 				"Git: Pull"
 			],
@@ -771,11 +795,15 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 476.0
+		"width": 449.0
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
 	},
 	"distraction_free":
 	{
@@ -788,7 +816,33 @@
 	},
 	"file_history":
 	[
+		"/home/vince/dev/SMSRelay/SMSRelay-server/test/ApplicationSpec.scala",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/ui/app/scripts/controllers/main.coffee",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/ui/app/scripts/app.coffee",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/app/controllers/Registration.scala",
 		"/home/vince/dev/SMSRelay/SMSRelay-server/ui/Gruntfile.js",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/build.sbt",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/deploy.sh",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/conf/application.conf",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/ui/app/index.html",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/conf/routes",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/SMSRelay-server-1.0-SNAPSHOT/logs/application.log",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/app/controllers/Authentification.scala",
+		"/home/vince/dev/scala/raspberry/deploy.sh",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/ui/app/views/main.html",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/ui/app/views/settings.html",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/ui/app/scripts/controllers/login.coffee",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/ui/app/views/login.html",
+		"/home/vince/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/vince/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/ui/app/scripts/controllers/settings.coffee",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/.gitignore",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/ui/app/styles/main.css",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/app/controllers/SMS.scala",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/ui/bower.json",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/app/utils/Conf.scala",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/project/plugins.sbt",
+		"/home/vince/dev/SMSRelay/SMSRelay-server/smsrelay.sublime-project",
 		"/home/vince/dev/SMSRelay/SMSRelay-server/conf/gcm.conf",
 		"/home/vince/dev/SMSRelay/SMSRelay-server/app/controllers/Application.scala",
 		"/home/vince/dev/coursera/algoprog/TD1-ready/src/RLE.java",
@@ -809,7 +863,6 @@
 		"/home/vince/dev/scala/raspberry/app/lib/Ls.scala",
 		"/home/vince/dev/scala/raspberry/test/ApplicationSpec.scala",
 		"/home/vince/dev/scala/raspberry/test/UtilsSpec.scala",
-		"/home/vince/dev/scala/raspberry/deploy.sh",
 		"/home/vince/dev/scala/raspberry/conf/application.conf",
 		"/home/vince/dev/scala/raspberry/public/stylesheets/main.css",
 		"/home/vince/dev/scala/raspberry/app/views/ftp/List.scala.html",
@@ -890,36 +943,11 @@
 		"/home/vince/dev/scala/work4labs/PlayDemo/README",
 		"/home/vince/dev/scala/work4labs/PlayDemo/project/Build.scala",
 		"/home/vince/dev/scala/work4labs/PlayDemo/app/Global.scala",
-		"/home/vince/dev/scala/work4labs/PlayDemo/app/controllers/JobsJson",
-		"/home/vince/dev/scala/work4labs/PlayDemo/app/database/db.scala",
-		"/home/vince/dev/scala/work4labs/PlayDemo/app/models/Category.scala",
-		"/usr/share/applications/sublime.desktop",
-		"/home/vince/dev/scala/work4labs/demo.scala",
-		"/home/vince/dev/scala/forcomp/src/main/scala/forcomp/Anagrams.scala",
-		"/home/vince/dev/scala/streams/build.sbt",
-		"/home/vince/dev/scala/streams/.ensime",
-		"/home/vince/Dropbox/Sublime Text 2/Data/Packages/Ensime/logs/client.log",
-		"/home/vince/dev/play-Intranet/app/views/mails/quiPrend.scala.html",
-		"/home/vince/dev/play-Intranet/app/views/accueil/mailingList.scala.html",
-		"/home/vince/dev/play-Intranet/app/views/mails/mailingList.scala.html",
-		"/home/vince/dev/play-Intranet/app/views/login.scala.html",
-		"/home/vince/dev/play-Intranet/app/controllers/Mails.java",
-		"/home/vince/dev/play-Intranet/app/views/index.scala.html",
-		"/home/vince/dev/play-Intranet/app/controllers/Application.java",
-		"/home/vince/dev/play-Intranet/app/controllers/Authentification.java",
-		"/home/vince/dev/play-Intranet/app/controllers/MailingList.java",
-		"/home/vince/dev/play-Intranet/app/controllers/Secured.java",
-		"/home/vince/dev/play-Intranet/conf/application.conf",
-		"/home/vince/dev/play-Intranet/conf/routes",
-		"/home/vince/dev/play-Intranet/app/models/Mail.java",
-		"/home/vince/dev/play-Intranet/app/views/mails/rappelQuiPrend.scala.html",
-		"/home/vince/dev/play-Intranet/app/views/accueil/annonces.scala.html",
-		"/home/vince/dev/play-Intranet/app/views/navBar.scala.html",
-		"/home/vince/dev/play-Intranet/app/views/main.scala.html"
+		"/home/vince/dev/scala/work4labs/PlayDemo/app/controllers/JobsJson"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -933,6 +961,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"copy",
+			"dist",
+			"val registrationId = \"APA91bE1EtwhXWBrGS9szkCPj-dEbsR5q8bawrnZ_8pujARteWEZpqAnd93oVYpd-RDj8jdMOpaRDA4heE_CqUmX9bTVhL2btQonXiGIeCcwARUu-cdGMu40JKGiDVYi-EwIu_67EW97dN7QOOM92TP1ePI1Bk_rQA\"",
+			"registrationId",
+			"messages",
 			"TEST",
 			"script",
 			"executeScriptTags",
@@ -999,6 +1032,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"conversations",
 			"String",
 			"",
 			"sidebar"
@@ -1012,28 +1046,135 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "conf/routes",
+					"file": "app/controllers/SMS.scala",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 686,
+						"buffer_size": 2557,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								196,
-								196
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Play2/Play-Routes.tmLanguage"
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Scala/Scala.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1043,48 +1184,260 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/controllers/SMS.scala",
+					"file": "app/controllers/Authentification.scala",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1767,
+						"buffer_size": 1129,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1426,
-								1426
+								821,
+								821
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Scala/Scala.tmLanguage"
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Scala/Scala.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 144.0,
+						"translation.y": 255.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "app/utils/Conf.scala",
+					"file": "app/models/Db.scala",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 557,
+						"buffer_size": 1073,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								475,
-								475
+								578,
+								578
 							]
 						],
 						"settings":
 						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
 							"syntax": "Packages/Scala/Scala.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -1097,49 +1450,261 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/controllers/Registration.scala",
+					"file": "conf/application.conf",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 641,
+						"buffer_size": 1893,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								543,
-								543
+								1309,
+								1309
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Scala/Scala.tmLanguage"
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Play 2.0/configuration.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 162.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": ".gitignore",
+					"file": "ui/app/index.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 207,
+						"buffer_size": 2780,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								206,
-								206
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1149,49 +1714,261 @@
 				},
 				{
 					"buffer": 5,
-					"file": "conf/application.conf",
+					"file": "ui/app/scripts/app.coffee",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1681,
+						"buffer_size": 995,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1681,
-								1681
+								635,
+								635
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Play2/configuration.tmLanguage"
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 332.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "project/plugins.sbt",
+					"file": "conf/routes",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 352,
+						"buffer_size": 874,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								352,
-								352
+								618,
+								618
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Play 2.0/Play-Routes.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1201,22 +1978,258 @@
 				},
 				{
 					"buffer": 7,
-					"file": "build.sbt",
+					"file": "app/controllers/Application.scala",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 204,
+						"buffer_size": 1893,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								204,
-								204
+								478,
+								478
 							]
 						],
 						"settings":
 						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Scala/Scala.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "build.sbt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								131
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -1263,6 +2276,7 @@
 	{
 		"height": 112.0
 	},
+	"project": "smsrelay.sublime-project",
 	"replace":
 	{
 		"height": 64.0
@@ -1274,32 +2288,108 @@
 		"selected_items":
 		[
 			[
-				"grunt",
-				"ui/Gruntfile.js"
+				"app.co",
+				"ui/app/scripts/app.coffee"
 			],
 			[
-				"route",
-				"conf/routes"
+				"appl",
+				"conf/application.conf"
+			],
+			[
+				"appp",
+				"test/ApplicationSpec.scala"
 			],
 			[
 				"bui",
 				"build.sbt"
 			],
 			[
-				"plugin",
-				"project/plugins.sbt"
+				"index",
+				"ui/app/index.html"
 			],
 			[
-				"rout",
+				"route",
 				"conf/routes"
+			],
+			[
+				"inde",
+				"ui/app/index.html"
+			],
+			[
+				"grunt",
+				"ui/Gruntfile.js"
+			],
+			[
+				"app",
+				"conf/application.conf"
+			],
+			[
+				"routes",
+				"conf/routes"
+			],
+			[
+				"main.coff",
+				"ui/app/scripts/controllers/main.coffee"
 			],
 			[
 				"a",
 				"conf/application.conf"
 			],
 			[
-				"app",
-				"app/controllers/Application.scala"
+				"app.c",
+				"ui/app/scripts/app.coffee"
+			],
+			[
+				"main",
+				"ui/app/views/main.html"
+			],
+			[
+				"sett",
+				"ui/app/views/settings.html"
+			],
+			[
+				"app.coff",
+				"ui/app/scripts/app.coffee"
+			],
+			[
+				"main.c",
+				"ui/app/scripts/controllers/main.coffee"
+			],
+			[
+				"sms",
+				"app/controllers/SMS.scala"
+			],
+			[
+				"re",
+				"app/controllers/Registration.scala"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"maincss",
+				"ui/app/styles/main.css"
+			],
+			[
+				"sty",
+				"ui/app/styles/main.css"
+			],
+			[
+				"rou",
+				"conf/routes"
+			],
+			[
+				"rout",
+				"conf/routes"
+			],
+			[
+				"reg",
+				"app/controllers/Registration.scala"
+			],
+			[
+				"plugin",
+				"project/plugins.sbt"
 			],
 			[
 				"main.js",
@@ -1358,20 +2448,8 @@
 				"app/models/User.scala"
 			],
 			[
-				"appl",
-				"conf/application.conf"
-			],
-			[
 				"user",
 				"app/models/User.scala"
-			],
-			[
-				"re",
-				"README.md"
-			],
-			[
-				"main",
-				"app/views/main.scala.html"
 			],
 			[
 				"red",
@@ -1390,20 +2468,12 @@
 				"app/views/bootstrap.scala.html"
 			],
 			[
-				"maincss",
-				"public/stylesheets/main.css"
-			],
-			[
 				"watc",
 				"app/views/watcher/Watcher.scala.html"
 			],
 			[
 				"login",
 				"app/views/login.scala.html"
-			],
-			[
-				"inde",
-				"app/views/index.scala.html"
 			],
 			[
 				"read",
@@ -1438,10 +2508,6 @@
 				"app/controllers/Application.scala"
 			],
 			[
-				"routes",
-				"conf/routes"
-			],
-			[
 				"ls/wat",
 				"app/views/ls/Watch.scala.html"
 			],
@@ -1468,10 +2534,6 @@
 			[
 				".git",
 				".gitignore"
-			],
-			[
-				"rou",
-				"conf/routes"
 			],
 			[
 				"plugi",
@@ -1642,10 +2704,6 @@
 				"app/controllers/Mails.java"
 			],
 			[
-				"index",
-				"app/views/index.scala.html"
-			],
-			[
 				"viemsmail",
 				"app/views/mails/mailingList.scala.html"
 			],
@@ -1740,10 +2798,24 @@
 		],
 		"width": 380.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 182.0,
-	"status_bar_visible": true
+	"side_bar_width": 176.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }

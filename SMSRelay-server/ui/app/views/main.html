@@ -1,21 +1,24 @@
 <h1>SMS Relay</h1>
 <div class="row">
+
   <div class="well col-md-5">
-    <ul>
-      <li ng-repeat="conv in conversations | orderBy: 'lastMessage':true ">
-        {{conv.name}} - {{conv.number}}
-        <ul>
-          <li ng-repeat="m in conv.messages | orderBy: '-date' | limitTo:5 | orderBy: 'date' ">
-            {{m.text}} <br/>
+    <div ng-repeat="conv in conversations | orderBy: 'lastMessage':true ">
+      <h4>{{conv.name}} - {{conv.number}}</h4>
+      <table class="table table-striped">
+        <tr class="" ng-repeat="m in conv.messages | orderBy: '-date' | limitTo:5 | orderBy: 'date' ">
+          <td>
+            <span ng-bind-html-unsafe="m.text | nl2br"></span> <br/>
             <small>{{m.date | date: 'd MMM, H:mm' }}</small>
-          </li>
-        </ul>
-        <button ng-click="reply(conv.number)">Reply</button>
-      </li>
-    </ul>
+          </td>
+        </tr>
+      </table>
+      <button class="btn btn-success" ng-click="reply(conv.number)">Reply</button>
+    </div>
   </div>
+
   <div class="col-md-1">
   </div>
+
   <div class="col-md-6">
     <form class="form-horizontal" role="form">
       <div class="form-group">
@@ -27,7 +30,7 @@
       <div class="form-group">
         <textarea class="form-control" ng-model="sms.text" rows="3"></textarea>
       </div>
-      <button type="submit" ng-click="send()" class="btn btn-default">Send</button>
+      <button id="sendBtn" type="submit" ng-click="send()" class="btn btn-primary">Send</button>
     </form>
   </div>
 </div>

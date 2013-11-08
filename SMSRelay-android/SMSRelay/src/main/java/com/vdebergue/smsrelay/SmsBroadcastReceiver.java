@@ -19,7 +19,7 @@ import java.util.Date;
 /**
  * Created by vince on 29/10/13.
  */
-public class SmsReceiver extends BroadcastReceiver {
+public class SmsBroadcastReceiver extends BroadcastReceiver {
     private static final String SMS_EXTRA_NAME = "pdus";
     public static final String TAG = "Atez";
 

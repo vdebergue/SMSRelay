@@ -1,13 +1,18 @@
 package com.vdebergue.smsrelay;
 
 import android.content.BroadcastReceiver;
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.telephony.SmsManager;
 import android.util.Log;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by vince on 30/10/13.
@@ -30,7 +35,13 @@ public class GcmBroadcastReceiver extends BroadcastReceiver{
                     Log.d(TAG, "Received: " + message + "\nSend To " + number);
                     // send sms
                     SmsManager sms = SmsManager.getDefault();
-                    sms.sendTextMessage(number, null, message, null, null);
+                    ArrayList<String> smsStringArray = sms.divideMessage(message);
+                    sms.sendMultipartTextMessage(number, null, smsStringArray, null, null);
+
+                    ContentValues values = new ContentValues();
+                    values.put("address", number);
+                    values.put("body", message);
+                    context.getContentResolver().insert(Uri.parse("content://sms/sent"), values);
                 }
             }
         }

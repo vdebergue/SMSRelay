@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
@@ -40,13 +41,16 @@ public class MainActivity extends Activity {
         if(Settings.getRegistrationId(context) != null) {
             registerButton.setText("Already registered");
         }
+
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 new AsyncTask() {
                     @Override
                     protected Object doInBackground(Object[] objects) {
-                        final String result = register();
+                        String login = ((EditText) findViewById(R.id.editLogin)).getText().toString();
+                        String password = ((EditText) findViewById(R.id.editPassword)).getText().toString();
+                        final String result = register(login, password);
 
                         runOnUiThread(new Runnable() {
                             @Override
@@ -61,8 +65,8 @@ public class MainActivity extends Activity {
         });
     }
 
-    private void sendRegistrationToBackend(Context c, String registrationId) {
-        HttpResponse response = ServerUtil.postRegistrationId(c, registrationId);
+    private void sendRegistrationToBackend(Context c, String registrationId, String login, String password) {
+        HttpResponse response = ServerUtil.postRegistrationId(c, registrationId, login, password);
         final int statusCode = response.getStatusLine().getStatusCode();
         if(statusCode!= 200) {
             HttpEntity e = response.getEntity();
@@ -83,7 +87,7 @@ public class MainActivity extends Activity {
         }
     }
 
-    private String register() {
+    private String register(String login, String password) {
         Log.i(TAG, "Registering device");
         String SENDER_ID = getString(R.string.sender_id);
 
@@ -94,7 +98,7 @@ public class MainActivity extends Activity {
             registrationId = gcm.register(SENDER_ID);
             Settings.storeRegistrationId(context, registrationId);
             // send registrationId
-            sendRegistrationToBackend(context, registrationId);
+            sendRegistrationToBackend(context, registrationId, login, password);
             return "Registration Successfull";
 
         } catch (IOException e) {

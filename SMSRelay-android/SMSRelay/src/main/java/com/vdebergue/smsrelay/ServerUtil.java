@@ -30,7 +30,6 @@ public class ServerUtil {
 
             post.setEntity(new StringEntity(json.toString(), "UTF-8"));
             post.setHeader("Content-Type", "application/json");
-            //post.setHeader("Accept-Encoding", "application/json");
             return httpClient.execute(post);
         } catch (Exception e) {
             Log.e(TAG, "Erreur: " + e.getMessage());
@@ -39,10 +38,12 @@ public class ServerUtil {
         return null;
     }
 
-    public static HttpResponse postRegistrationId(Context context, String registrationId) {
+    public static HttpResponse postRegistrationId(Context context, String registrationId, String login, String password) {
         JSONObject json = new JSONObject();
         try {
             json.put("registrationId", registrationId);
+            json.put("login", login);
+            json.put("password", password);
         } catch (JSONException e) {
             e.printStackTrace();
         }
