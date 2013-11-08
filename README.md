@@ -4,7 +4,7 @@ SMSRelay
 This app is a demo-app which allows you to receive and send text messages from the browser
 It is constituted of two parts:
 - an android app
-- a server part
+- a server + client front-end
 
 
 What is used
