@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sender_id">SENDERID</string>
+    <string name="serveur_url">SERVER_URL</string>
+    <string name="registration_url">register</string>
+    <string name="sms_url">sms/push</string>
+</resources>
