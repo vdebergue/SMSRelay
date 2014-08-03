@@ -88,6 +88,10 @@ angular.module('uiApp')
         this.cancel()
       n.show()
 
+      setTimeout(() ->
+        n.cancel()
+      , 5000)
+
     smsFeed.addEventListener("message", (msg) ->
       message = JSON.parse(msg.data)
       if message.type == "smsFromPhone"
